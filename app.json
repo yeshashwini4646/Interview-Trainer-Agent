@@ -1,0 +1,27 @@
+{
+  "name": "AI Interview Trainer Agent",
+  "description": "An AI-powered Interview Trainer that uses IBM Granite, IBM watsonx.ai, Retrieval-Augmented Generation (RAG), ChromaDB, FastAPI, and Streamlit to generate personalized interview questions, evaluate candidate responses, and provide interview feedback.",
+  "version": "1.0.0",
+  "author": "Yeshashwini N",
+  "license": "MIT",
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "Streamlit",
+    "IBM watsonx.ai",
+    "IBM Granite",
+    "LangChain",
+    "ChromaDB",
+    "RAG",
+    "SQLite"
+  ],
+  "features": [
+    "Personalized interview question generation",
+    "Candidate response evaluation",
+    "Interview feedback generation",
+    "Retrieval-Augmented Generation (RAG)",
+    "Vector database integration with ChromaDB"
+  ],
+  "project_type": "application",
+  "repository_type": "project"
+}
