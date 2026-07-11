@@ -1,10 +1,16 @@
-# AI Interview Trainer
+# 🎤 AI Interview Trainer
 
 End-to-end AI-powered interview coaching platform built with **FastAPI** (backend) and **Streamlit** (frontend).
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
 ---
 
-## Features
+## ✨ Features
 
 - 🎤 **AI Question Generation** — context-aware questions tailored to role, difficulty, and topic
 - 🤖 **AI Answer Evaluation** — structured feedback with score, strengths, improvements, and model answer
@@ -14,7 +20,7 @@ End-to-end AI-powered interview coaching platform built with **FastAPI** (backen
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 Interview-Trainer-Agent/
@@ -25,7 +31,7 @@ Interview-Trainer-Agent/
 │   ├── agents/                # LLM agents + vector store
 │   ├── services/              # Business logic layer
 │   ├── models/                # SQLAlchemy ORM models
-│   ├── schemas/               # Pydantic request/response schemas
+│   ├── schemas/                # Pydantic request/response schemas
 │   └── db/                    # Engine, session factory, init script
 │
 ├── frontend/                  # Streamlit application
@@ -35,15 +41,15 @@ Interview-Trainer-Agent/
 │   ├── components.py          # Reusable UI widgets
 │   └── pages/                 # One file per page (home, practice, history, settings)
 │
-├── data/                      # Seed/reference data
-├── vector_db/                 # Persisted ChromaDB collections
-├── docs/                      # Architecture docs, ADRs
-└── tests/                     # Pytest test suite
+├── data/                       # Seed/reference data
+├── vector_db/                  # Persisted ChromaDB collections
+├── docs/                       # Architecture docs, ADRs
+└── tests/                      # Pytest test suite
 ```
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 ### 1. Install dependencies
 
@@ -76,11 +82,11 @@ uvicorn backend.main:app --reload --port 8000
 streamlit run frontend/app.py
 ```
 
-Open [http://localhost:8501](http://localhost:8501) in your browser.
+Open **http://localhost:8501** in your browser.
 
 ---
 
-## Running Tests
+## 🧪 Running Tests
 
 ```bash
 pytest tests/ -v
@@ -88,7 +94,7 @@ pytest tests/ -v
 
 ---
 
-## Docker Compose
+## 🐳 Docker Compose
 
 ```bash
 docker compose up --build
@@ -96,7 +102,7 @@ docker compose up --build
 
 ---
 
-## Environment Variables
+## ⚙️ Environment Variables
 
 | Variable | Default | Description |
 |---|---|---|
@@ -106,3 +112,14 @@ docker compose up --build
 | `DATABASE_URL` | SQLite local file | SQLAlchemy connection string |
 | `VECTOR_DB_PATH` | `vector_db` | ChromaDB persistence path |
 | `API_BASE_URL` | `http://localhost:8000/api/v1` | Frontend → backend URL |
+
+---
+
+## 👩‍💻 Author
+
+**Yeshashwini N**
+[GitHub](https://github.com/yeshashwini4646) · [LinkedIn](https://www.linkedin.com/in/yeshashwini-n-414186308)
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
